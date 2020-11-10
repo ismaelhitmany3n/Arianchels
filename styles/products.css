@@ -1,0 +1,25 @@
+
+.product-section {
+   display:flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.product-container {
+    min-width: 300px;
+    min-height: 300px;
+    margin: 1px;
+    border: 1px solid #EDCFC1;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;   
+}
+
+.product-container img {
+    width: 230px;
+    height: 200px;
+    display: inline-block;
+	overflow: hidden;
+}

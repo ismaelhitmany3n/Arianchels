@@ -1,0 +1,27 @@
+/* Default */
+/* Variables */
+:root {
+    --primary: #dac404;
+    --primaryHover: #dac50480;
+  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #F7F2EE;
+  scroll-behavior: smooth;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  /* color:white; */
+  font-weight: 300;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
