@@ -5,11 +5,12 @@
 }
 
 nav{
-  background:#FD5E00;
+  background:#fff;
   padding: 5px 20px;
   position: sticky;
   top: 0;
   overflow: hidden;
+  /* background-image: url(../assets/images/background/mangobg.jpg); */
   
 }
 
@@ -20,7 +21,7 @@ ul {
 }
 a {
   text-decoration: none;
-  color:white;
+  color:#000;
 }
 
 a:hover{
@@ -35,9 +36,34 @@ padding: 15px 5px;
   display: block;
 }
 
-.logo a{
-  font-size: 30px;
+.menu .logo {
+ display: flex;
+
 }
+
+.logo a{
+  font-size: 25px;
+  padding: 10px 8px;
+  color: #fff;
+  
+  /* transform: skew(-20deg); */
+  /* border-radius: 100%; */
+}
+
+
+
+.menu .logo .logoname-1 {
+  background: #FF0066;
+  
+}
+.menu .logo .logoname-2 {
+  background: #FD5E00;
+}
+.menu .logo .logoname-3 {
+  background: #FFCA04;
+  
+}
+
 
 .button.secondary{
   border-bottom: 1px solid #444;
@@ -74,7 +100,7 @@ cursor: pointer;
 }
 
 .bars{
-  background:white;
+  background: #FD5E00;
   display: inline-block;
   height: 2px;
   position: relative;
@@ -82,7 +108,6 @@ cursor: pointer;
 }
 
 .bars::before,.bars::after{
-  background: white;
   content: "";
   display: inline-block;
   height: 2px;
@@ -90,11 +115,13 @@ cursor: pointer;
   width: 18px; 
 }
 .bars::before{
-  top:5px
+  top:5px;
+  background: #FF0066;
 }
 
 .bars::after{
-  top:-5px
+  top:-5px;
+  background: #FFCA04;
 }
 
 .main .menu .toggle.show {
@@ -124,8 +151,8 @@ cursor: pointer;
   .button a{
     text-decoration: none;
     padding: 7px 15px;
-    background: teal;
-    border: 1px solid #006d6d;
+    background: #FF0066;
+    border: 1px solid#FF0066;
     border-radius: 50em;
   }
   .button.secondary a{

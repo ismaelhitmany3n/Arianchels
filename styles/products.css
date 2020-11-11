@@ -10,11 +10,12 @@
     min-height: 300px;
     margin: 1px;
     border: 1px solid #EDCFC1;
-    background-color: whitesmoke;
+    background-color: #fff;
     display:flex;
     flex-direction: column;
-   justify-content: center;
-   align-items: center;   
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
 }
 
 .product-container img {
@@ -22,4 +23,12 @@
     height: 200px;
     display: inline-block;
 	overflow: hidden;
+}
+
+.product-container >p {
+    background: #FF0066;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    
 }

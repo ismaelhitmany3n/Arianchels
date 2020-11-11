@@ -1,0 +1,20 @@
+.new-products-section{
+    width:800px;
+    margin:auto;
+}
+
+.slides{
+    border-radius:5px;
+    /* display:none; */
+    background-color:red;
+    padding:10px;
+    animation-name: fadeIn;
+    animation-duration: 0.6s;
+    animation: slide;
+    }
+
+    @keyframes slider{
+        0%{
+
+        }
+    }

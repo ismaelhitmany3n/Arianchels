@@ -8,8 +8,10 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: #F7F2EE;
+  background:whitesmoke;
   scroll-behavior: smooth;
+ 
+
 }
 * {
   font-family: "Roboto", sans-serif;
